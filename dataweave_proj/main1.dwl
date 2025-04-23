@@ -1,6 +1,6 @@
 %dw 2.0
 output application/json
-var group = payload1 groupBy $.message 
+var group = payload3 groupBy $.message 
 ---
 
  [
