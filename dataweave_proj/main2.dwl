@@ -1,7 +1,7 @@
 %dw 2.0
 output application/json
 ---
-payload filter ((item, index) -> !(item.operation contains "remove"))
+payload4 filter ((item, index) -> !(item.operation contains "remove"))
 /*
 [
   {
